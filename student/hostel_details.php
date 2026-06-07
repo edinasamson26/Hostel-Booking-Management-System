@@ -102,10 +102,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <!-- Sidebar -->
             <aside class="sidebar">
                 <ul class="sidebar-menu">
-                    <li><a href="dashboard.php">📊 Dashboard</a></li>
-                    <li><a href="hostels.php" class="active">🏠 View Hostels</a></li>
-                    <li><a href="bookings.php">📋 My Bookings</a></li>
-                    <li><a href="../about.php">ℹ️ About Us</a></li>
+                    <li><a href="dashboard.php"> Dashboard</a></li>
+                    <li><a href="hostels.php" class="active"> View Hostels</a></li>
+                    <li><a href="bookings.php"> My Bookings</a></li>
+                    <li><a href="../about.php"> About Us</a></li>
                     <li><a href="../contact.php">📞 Contact</a></li>
                 </ul>
             </aside>
@@ -158,7 +158,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <?php if (!$existing_booking && $hostel['available_rooms'] > 0): ?>
                     <div class="card" style="margin-top: 30px;">
                         <div class="card-header">
-                            📝 Book This Hostel
+                             Book This Hostel
                         </div>
                         <div class="card-body">
                             <form method="POST" id="bookingForm">
