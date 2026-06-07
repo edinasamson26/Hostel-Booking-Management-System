@@ -57,8 +57,8 @@ $recent_stmt = $conn->query("
             <!-- Sidebar -->
             <aside class="sidebar">
                 <ul class="sidebar-menu">
-                    <li><a href="dashboard.php" class="active">📊 Dashboard</a></li>
-                    <li><a href="bookings.php">📋 Bookings</a></li>
+                    <li><a href="dashboard.php" class="active"> Dashboard</a></li>
+                    <li><a href="bookings.php"> Bookings</a></li>
                     <li><a href="approve.php">✅ Approve Bookings</a></li>
                 </ul>
             </aside>
@@ -67,7 +67,7 @@ $recent_stmt = $conn->query("
             <section>
                 <div class="card">
                     <div class="card-header">
-                        📊 Admin Dashboard
+                         Admin Dashboard
                     </div>
                     <div class="card-body">
                         <p>Welcome to the hostel booking admin panel. Here you can manage bookings, approve requests, and view system statistics.</p>
@@ -121,7 +121,7 @@ $recent_stmt = $conn->query("
                 <!-- Recent Bookings -->
                 <div class="card" style="margin-top: 30px;">
                     <div class="card-header">
-                        📋 Recent Bookings
+                         Recent Bookings
                     </div>
                     <div class="card-body">
                         <table>
