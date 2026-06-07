@@ -128,7 +128,7 @@ $hostels_result = $conn->query("SELECT * FROM hostels LIMIT 6");
 
                                 <div class="hostel-card">
                                 <div class="hostel-image">
-                                    🏢 <?= htmlspecialchars($name) ?>
+                                     <?= htmlspecialchars($name) ?>
                                 </div>
 
                                 <div class="hostel-info">
