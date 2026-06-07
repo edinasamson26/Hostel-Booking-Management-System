@@ -78,10 +78,10 @@ $recent_bookings = $recent_stmt->get_result();
             <!-- Sidebar -->
             <aside class="sidebar">
                 <ul class="sidebar-menu">
-                    <li><a href="dashboard.php" class="active">📊 Dashboard</a></li>
-                    <li><a href="hostels.php">🏠 View Hostels</a></li>
-                    <li><a href="bookings.php">📋 My Bookings</a></li>
-                    <li><a href="../about.php">ℹ️ About Us</a></li>
+                    <li><a href="dashboard.php" class="active"> Dashboard</a></li>
+                    <li><a href="hostels.php"> View Hostels</a></li>
+                    <li><a href="bookings.php"> My Bookings</a></li>
+                    <li><a href="../about.php"> About Us</a></li>
                     <li><a href="../contact.php">📞 Contact</a></li>
                 </ul>
             </aside>
@@ -90,7 +90,7 @@ $recent_bookings = $recent_stmt->get_result();
             <section>
                 <div class="card">
                     <div class="card-header">
-                        📊 Welcome to Your Dashboard
+                         Welcome to Your Dashboard
                     </div>
                     <div class="card-body">
                         <p>Hello <strong><?php echo htmlspecialchars($user['name']); ?></strong>! Here's your hostel booking overview.</p>
@@ -122,7 +122,7 @@ $recent_bookings = $recent_stmt->get_result();
                 <!-- Recent Bookings -->
                 <div class="card" style="margin-top: 30px;">
                     <div class="card-header">
-                        📋 Recent Bookings
+                         Recent Bookings
                     </div>
                     <div class="card-body">
                         <?php if ($recent_bookings->num_rows > 0): ?>
