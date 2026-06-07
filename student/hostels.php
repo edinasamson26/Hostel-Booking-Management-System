@@ -72,10 +72,10 @@ $hostels = $stmt->get_result();
             <!-- Sidebar -->
             <aside class="sidebar">
                 <ul class="sidebar-menu">
-                    <li><a href="dashboard.php">📊 Dashboard</a></li>
-                    <li><a href="hostels.php" class="active">🏠 View Hostels</a></li>
-                    <li><a href="bookings.php">📋 My Bookings</a></li>
-                    <li><a href="../about.php">ℹ️ About Us</a></li>
+                    <li><a href="dashboard.php">Dashboard</a></li>
+                    <li><a href="hostels.php" class="active"> View Hostels</a></li>
+                    <li><a href="bookings.php"> My Bookings</a></li>
+                    <li><a href="../about.php">About Us</a></li>
                     <li><a href="../contact.php">📞 Contact</a></li>
                 </ul>
             </aside>
@@ -84,7 +84,7 @@ $hostels = $stmt->get_result();
             <section>
                 <div class="card">
                     <div class="card-header">
-                        🏠 Available Hostels
+                         Available Hostels
                     </div>
                     <div class="card-body">
                         <!-- Filters -->
